@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    padding-right: 220px; /* Add padding to avoid overlap with the image */
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #4CAF50;
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 5px 0;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.loading-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.loading-bar-container {
+    width: 80%;
+    height: 25px;
+    background-color: #ddd;
+    margin-bottom: 10px;
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.loading-bar {
+    height: 100%;
+    background-color: #4CAF50;
+    width: 0;
+    transition: width 0.5s ease-in-out;
+    border-radius: 5px 0 0 5px;
+}
+
+#loadingPercentage {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.statements {
+    margin: 20px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.goal-section {
+    margin: 20px 0;
+}
+
+.goal {
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.goal.header {
+    background-color: #b4a9a9;
+    color: rgb(0, 0, 0);
+}
+
+.side-image {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 200px; /* Adjust size as needed */
+    height: auto;
+    border: 2px solid #ddd; /* Optional border */
+    border-radius: 10px; /* Optional rounded corners */
+}
+/* Additional styles for the total row */
+.total-row {
+    font-weight: bold;
+    background-color: #f2f2f2;
+}
